@@ -1,0 +1,28 @@
+{
+  "user":[
+    {"pseudo": "Az",
+      "age": 27,
+      "address": "50 rue des troubadours 60400 noyon",
+      "email": "Az@gmail.com",
+      "password": "azertyuiop"
+    },
+    {"pseudo": "Efir",
+      "age": 18,
+      "address": "51 rue des troubadours 60400 noyon",
+      "email": "Efir@gmail.com",
+      "password": "1234"
+    },
+    {"pseudo": "Ghome",
+      "age": 75,
+      "address": "51 bis, rue des troubadours 60400 noyon",
+      "email": "ghome@gmail.com",
+      "password": "az&é12"
+    },
+    {"pseudo": "Vp",
+      "age": 40,
+      "address": "52, rue des troubadours 60400 noyon",
+      "email": "vp@gmail.com",
+      "password": "azertyuiop"
+    }
+  ]
+}

@@ -5,25 +5,44 @@ $(function(){
   var regexMail = /^[\w\-\.]+[a-z0-9]@[\w\-\.]+[a-z0-9]\.[a-z]+/i;
   //je declare variable regex adresse qui recherche synthaxe adresse mail)
   var regexAddress = /^\d{1,5}([ ]?bis|[ ]?ter)?[,]?[ ]\w{2,9}[a-z ]+\d{5}\D+/i;
+  //je sauve ma structure json dans une variable
+  var users = 0;
+  function AJAX_JSON_Req( url )
+  {
+    var AJAX_req = new XMLHttpRequest();
+    AJAX_req.open( "GET", url, true );
+    AJAX_req.setRequestHeader("Content-type", "application/json");
+
+    AJAX_req.onreadystatechange = function()
+    {
+      if( AJAX_req.readyState == 4 && AJAX_req.status == 200 )
+      {
+        users = JSON.parse( AJAX_req.responseText );
+      }
+    }
+    AJAX_req.send();
+  }
+  AJAX_JSON_Req( 'js/users.json' );
   //je démarre ma fonction au click du bouton Ok
   $("#validForm").click(function(){
     //variable qui vérifie que tous mes champs sont remplis correctement
     var isCorrect = true;
+    console.log(users);
     /*je teste la valeur de mon champs pseudo avec une regex qui prend en compte les caractères alphanumériques,
-     si fausse cela affiche croix rouge et cela cache le tick vert */
+    si fausse cela affiche croix rouge et cela cache le tick vert */
     if (!regexName.test($('#pseudo').val())){
       $(".pseudo .glyphicon-remove").show();
       $(".pseudo .glyphicon-ok").hide();
       isCorrect = false;
       //alors si vraie cela affiche le tick vert sinon si fausse affiche la croix rouge
     }else{
+
       $(".pseudo .glyphicon-ok").show();
       $(".pseudo .glyphicon-remove").hide();
     }//je teste la valeur dans le champs age si faux(!) qu'il soit numérique ou inférieur à 18 ans
     if (!$.isNumeric($("#age").val()) || $("#age").val() < 18){
       $(".age .glyphicon-remove").show();
       $(".age .glyphicon-ok").hide();
-      //
       isCorrect = false;
     }else{
       $(".age .glyphicon-ok").show();
