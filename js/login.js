@@ -7,22 +7,34 @@ $(function(){
   var regexAddress = /^\d{1,5}([ ]?bis|[ ]?ter)?[,]?[ ]\w{2,9}[a-z ]+\d{5}\D+/i;
   //je sauve ma structure json dans une variable
   var users = 0;
-  function AJAX_JSON_Req( url )
+  function readTextFile(file)
   {
-    var AJAX_req = new XMLHttpRequest();
-    AJAX_req.open( "GET", url, true );
-    AJAX_req.setRequestHeader("Content-type", "application/json");
-
-    AJAX_req.onreadystatechange = function()
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
     {
-      if( AJAX_req.readyState == 4 && AJAX_req.status == 200 )
+      if(rawFile.readyState === 4)
       {
-        users = JSON.parse( AJAX_req.responseText );
+        if(rawFile.status === 200 || rawFile.status == 0)
+        {
+          users = JSON.parse(rawFile.responseText);
+        }
       }
     }
-    AJAX_req.send();
+    rawFile.send(null);
   }
-  AJAX_JSON_Req( 'js/users.json' );
+  readTextFile( 'js/users.json' );
+  function hasMatchInput(type, inputVal) {
+    var hasMatch =false;
+    for (var index = 0; index < users.user.length; index++) {
+      var user = users.user[index];
+      if(user[type] == inputVal){
+        hasMatch = true;
+        break;
+      }
+    }
+    return hasMatch;
+  }
   //je démarre ma fonction au click du bouton Ok
   $("#validForm").click(function(){
     //variable qui vérifie que tous mes champs sont remplis correctement
@@ -30,13 +42,12 @@ $(function(){
     console.log(users);
     /*je teste la valeur de mon champs pseudo avec une regex qui prend en compte les caractères alphanumériques,
     si fausse cela affiche croix rouge et cela cache le tick vert */
-    if (!regexName.test($('#pseudo').val())){
+    if (!regexName.test($('#pseudo').val()) || hasMatchInput("pseudo", $('#pseudo').val())){
       $(".pseudo .glyphicon-remove").show();
       $(".pseudo .glyphicon-ok").hide();
       isCorrect = false;
       //alors si vraie cela affiche le tick vert sinon si fausse affiche la croix rouge
     }else{
-
       $(".pseudo .glyphicon-ok").show();
       $(".pseudo .glyphicon-remove").hide();
     }//je teste la valeur dans le champs age si faux(!) qu'il soit numérique ou inférieur à 18 ans
@@ -56,7 +67,7 @@ $(function(){
       $(".address .glyphicon-ok").show();
       $(".address .glyphicon-remove").hide();
     }
-    if (!regexMail.test($('#email').val())){
+    if (!regexMail.test($('#email').val()) || hasMatchInput("email", $('#email').val())){
       $(".email .glyphicon-remove").show();
       $(".email .glyphicon-ok").hide();
       isCorrect = false;
