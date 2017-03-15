@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "GearsOfPeace";
+  src: url("fonts/GearsOfPeace.ttf");
+}
+nav{
+ background-color:#125722;
+ text-align: center;
+}
+#nav-wrap {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+#nav-wrap ul {/*
+  min-height: 48px;*/
+  width: auto;
+  display: inline-block;
+}
+#nav-wrap ul li {
+  position: relative;
+  list-style: none;/*
+  height: 48px;*/
+  display: inline-block;
+}
+#nav-wrap ul li a {
+  display: inline-block;/*
+  padding: 8px 13px;
+  line-height: 32px;*/
+  padding:12px;
+  vertical-align: middle;
+    text-decoration: none;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+}
+#nav-wrap ul.sub-level {
+	display: none;
+}
+#nav-wrap ul a:hover{
+  background-color:#D39870;
+}
+#nav-wrap ul li:hover .sub-level {
+	background: #444;
+	border: #aaa solid;
+	border-width: 1px;
+	display: block;
+	position: absolute;
+	top: 100%;
+  padding: 0;
+}
+#nav-wrap ul.sub-level li {
+	width: 20.5em;
+}
+#nav-wrap ul span{
+  font-size: 15px;
+}
+#nav{
+  font: 12px sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+#nav2{
+  font-size: 11px;
+  font-weight: bold;
+}
+#title{
+  margin-top: 40px;
+  margin-left: 0;
+  width: auto;
+  font-family: "GearsOfPeace";
+  font-size: 5em;
+  padding: 0.5em;
+  color: #ccc;
+  background-image: url("img/camo.png");
+  background-size: contain;
+}
