@@ -134,4 +134,12 @@ $(function(){
       }
     }
   });
+  $('#buttonUp').click(function() {
+    var clickNumber = $('#up').val();
+    $('#up').val(parseInt(clickNumber) + 1);
+  });
+  $('#buttonDown').click(function() {
+    var clickNumber = $('#down').val();
+    $('#down').val(parseInt(clickNumber) - 1);
+  });
 });
