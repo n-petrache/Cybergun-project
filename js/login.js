@@ -134,4 +134,16 @@ $(function(){
       }
     }
   });
+  $('#buttonUp').click(function() {
+    var clickNumber = $('#buttonUp').val();
+    $('#buttonUp').val(parseInt(clickNumber) + 1);
+  });
+  $('#buttonDown').click(function() {
+    var clickNumber = $('#buttonDown').val();
+    $('#buttonDown').val(parseInt(clickNumber) - 1);
+  });
+  $('#trashButton').click(function() {
+    var reset = $('#trashButton').val();
+    $('#trashButton').val(remove(reset);
+  });
 });
