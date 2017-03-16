@@ -35,18 +35,6 @@
   transform: translateY(40px);
   -webkit-transform: translateY(40px);
 }
-.box .title{
-  font-size: 20px;
-  text-transform: uppercase;
-  opacity: 0;
-  transition-delay: 0.1s;
-  transition-duration: 0.2s;
-}
-.box:hover .title, .box:focus .title{
-  opacity: 1;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-}
 .box .tagline{
   font-size: 10px;
   opacity: 0;
@@ -57,4 +45,7 @@
   opacity: 1;
   transform: translateX(0px);
   -webkit-transform: translateX(0px);
+}
+.thumbnail{
+  height: 350px;
 }
