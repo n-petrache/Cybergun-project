@@ -51,6 +51,7 @@ nav{
 	border-width: 1px;
 	display: block;
 	position: absolute;
+  z-index: 102;
 	top: 100%;
   padding: 0;
 }
