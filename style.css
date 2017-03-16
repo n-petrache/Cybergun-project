@@ -43,7 +43,7 @@ nav{
   background-color:#D39870;
 }
 #nav-wrap ul li:hover .sub-level {
-	background: #444;
+	background: #443;
 	border: #aaa solid;
 	border-width: 1px;
 	display: block;
@@ -69,11 +69,29 @@ nav{
 #title{
   margin-top: 40px;
   margin-left: 0;
-  width: auto;
+  width: 100%;
   font-family: "GearsOfPeace";
-  font-size: 5em;
+  font-size: 4.2em;
   padding: 0.5em;
-  color: #ccc;
+  padding-left: 1em;
+  color: #ddc;
   background-image: url("img/camo.png");
   background-size: contain;
+}
+.glyphicon-ok{
+  color: green;
+  display: none;
+}
+.glyphicon-remove{
+  color:red;
+  display: none;
+}
+footer{
+  background-color: #332;
+  font-family: sans;
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5em;
 }
