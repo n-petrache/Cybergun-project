@@ -53,7 +53,7 @@
           <ul id="nav2" class="nav">
             <li><a data-toggle="modal" data-target="#signUp" data-backdrop="false">Connexion</a></li>
             <li><a data-toggle="modal" data-target="#signIn" data-backdrop="false">Inscription</a></li>
-            <li><a class="" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+            <li><a class="" href="#" data-toggle="modal" data-target="#basket"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
           </ul>
         </nav>
       </div>
@@ -71,7 +71,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Inscription</h4>
+            <h4 class="modal-title">Rejoignez-nous !</h4>
           </div>
           <div class="modal-body">
             <div class="row">
@@ -163,7 +163,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Connexion</h4>
+            <h4 class="modal-title">Bienvenue ! Veuillez vous identifier.</h4>
           </div>
           <div class="modal-body">
             <div class="row">
@@ -201,10 +201,7 @@
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#basket">
-      Panier
-    </button><!--panier fenetre modale-->
+    </div><!-- /.modal --><!--panier fenetre modale-->
     <div class="modal fade" id="basket" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -220,53 +217,53 @@
                     <label for="item">Article</label>
                     <button type="button" class="btn btn-default btn-sm" name="trashButton"id="trash">
                       <span class="glyphicon glyphicon-trash"></span></button>
-                  </div>
-                  <div class="col-lg-2"></div>
-                  <div class="col-lg-1 text-right">
-                    <label for="itemCode">Référence</label>
-                  </div>
-                  <div class="col-lg-2"></div>
-                  <div class="col-lg-1">
-                    <label for="quantity">Quantité</label>
-                    <button type="button" name="buttonUp" id="buttonUp" >+</button>
-                    <button type="button" name="buttonDown" id="buttonDown" >-</button>
-                  </div>
-                  <div class="col-lg-2"></div>
-                  <div class="col-lg-1">
-                    <label for="price">Prix</label>
-                  </div>
-                  <div class="col-lg-2"></div>
-                  <div class="row">
-                    <div class="col-lg-offset-6 col-lg-1">
-                      <label for="count">Total</label>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-1 text-right">
+                      <label for="itemCode">Référence</label>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-1">
+                      <label for="quantity">Quantité</label>
+                      <button type="button" name="buttonUp" id="buttonUp" >+</button>
+                      <button type="button" name="buttonDown" id="buttonDown" >-</button>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-1">
+                      <label for="price">Prix</label>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="row">
+                      <div class="col-lg-offset-6 col-lg-1">
+                        <label for="count">Total</label>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
-            <button type="button" class="btn btn-primary" id="validForm">Valider</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-  </div>
-  <footer>
-    <span>&copy; BENOÎT Clément, BOULNOIS Véronique, MAGNOUX Jérôme, PETRACHE Noémie</span>
-  </footer>
-  <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous">
-  </script>
-  <script
-  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-  crossorigin="anonymous">
-  </script>
-  <script src="js/login.js"></script>
-  <script src="js/content.js"></script>
-</body>
-</html>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+              <button type="button" class="btn btn-primary" id="validForm">Valider</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </div>
+    <footer>
+      <span>&copy; BENOÎT Clément, BOULNOIS Véronique, MAGNOUX Jérôme, PETRACHE Noémie</span>
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous">
+    </script>
+    <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous">
+    </script>
+    <script src="js/login.js"></script>
+    <script src="js/content.js"></script>
+  </body>
+  </html>
