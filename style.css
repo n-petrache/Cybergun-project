@@ -2,6 +2,9 @@
   font-family: "GearsOfPeace";
   src: url("fonts/GearsOfPeace.ttf");
 }
+body{
+  padding-bottom: 5em;
+}
 nav{
  background-color:#125722;
  text-align: center;
@@ -78,19 +81,11 @@ nav{
   background-image: url("img/camo.png");
   background-size: contain;
 }
-.glyphicon-ok{
-  color: green;
-  display: none;
-}
-.glyphicon-remove{
-  color:red;
-  display: none;
-}
 footer{
   background-color: #332;
   font-family: sans;
   color: #FFF;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 1.5em;
