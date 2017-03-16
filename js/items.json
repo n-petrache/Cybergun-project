@@ -1,0 +1,370 @@
+{
+  "repliques": [
+    {
+      "nom":"Cyma-CM028-type-AK47",
+      "image":"img/repliques/fusilAssaut/CYMA-CM028-type-AK47.jpg",
+      "type":"fusilAssaut",
+      "reference":"01",
+      "detail":"Cyma AK47 CM028.  Gearbox V3 Métal. Chargeur de 600 billes. Puissance d'environ 1.5 joules. Batterie et chargeur de batterie inclus. ",
+      "prix":"119,90 € TTC"
+    },
+    {
+      "nom":"Cyma-M4A1-CM303",
+      "image":"img/repliques/fusilAssaut/Cyma-M4A1-CM303.jpg",
+      "type":"fusilAssaut",
+      "reference":"02",
+      "detail":"Cyma M4A1 ressort CM303 d'une puissance de 0.7J. Une réplique ressort du célèbre Colt M4A1 avec une qualité de finition irréprochable et dotée d'une puissance exceptionnelle pour une réplique longue ressort",
+      "prix":"39,90 € TTC"
+    },
+    {
+      "nom":"Cyma-M4-CQB-CM306",
+      "image":"img/repliques/fusilAssaut/Cyma-M4-CQB-CM306.jpg",
+      "type":"fusilAssaut",
+      "reference":"03",
+      "detail":"Cyma M4 CQB CM306 0.9J en ABS",
+      "prix":"39,90 € TTC"
+    },
+    {
+      "nom":"WE-G39C-GBBR",
+      "image":"img/repliques/fusilAssaut/WE-G39C-GBBR.jpg",
+      "type":"fusilAssaut",
+      "reference":"04",
+      "detail":"WE G39C type G36C système Open Bolt - Fusil d'assaut à gaz - Couleur Noir",
+      "prix":"269,90 € TTC"
+    },
+    {
+      "nom":"we-mk17-open-bolt-noir-a-gaz",
+      "image":"img/repliques/fusilAssaut/we-mk17-open-bolt-noir-a-gaz.jpg",
+      "type":"fusilAssaut",
+      "reference":"05",
+      "detail":"WE MK17 système Open Bolt. Fusil d'assaut à gaz à culasse mobile (blowback). Chargeur en métal d'une capacité de 30 billes. Couleur Noir. Corps Aluminium",
+      "prix":"399,90 € TTC"
+    },
+    {
+      "nom":"cyma-m870-court-crosse-pliable-metal-cm352m",
+      "image":"img/repliques/fusilPompe/cyma-m870-court-crosse-pliable-metal-cm352m.jpg",
+      "type":"fusilPompe",
+      "reference":"06",
+      "detail":"Cyma Fusil a pompe M870 Court Crosse Pliable et Nylon CM352M. Nouvelle Gamme de chez Cyma. disposant de 3 canons interne. de couleur noir. fournie avec 3 cartouches de 30 billes chacune.",
+      "prix":"99,90 € TTC"
+    },
+    {
+      "nom":"cyma-m870-long-crosse-reglable-cm353l",
+      "image":"img/repliques/fusilPompe/cyma-m870-long-crosse-reglable-cm353l.jpg",
+      "type":"fusilPompe",
+      "reference":"07",
+      "detail":"Cyma fusil à pompe manuel M870 version longue avec crosse réglable (type M4 Benelli). RépliqueABS. Version triple shot grâce aux trois canons interne. Puissance d'environ 260 fps, soit environ 0.7 joules.",
+      "prix":"46,90 € TTC"
+    },
+    {
+      "nom":"Mossberg-590-Chainsaw-Noir",
+      "image":"img/repliques/fusilPompe/Mossberg-590-Chainsaw-Noir.jpg",
+      "type":"fusilPompe",
+      "reference":"08",
+      "detail":"Mossberg fusili à pompe M590 Chainsaw. Armement manuel. Puissance d'environ 275fps, soit 0.7 joules.Hop up réglable. Chargeur de 180 billes. Tire les billes 1 par 1. ",
+      "prix":"24,90 € TTC"
+    },
+    {
+      "nom":"st-m870-bois-metal",
+      "image":"img/repliques/fusilPompe/st-m870-bois-metal.png",
+      "type":"fusilPompe",
+      "reference":"09",
+      "detail":"Fusil à pompe ST870 canon long. Réplique full métal et bois véritable. Puissance d'environ 360 fps, soit 1.2 joules. Réplique Spring à réarmement manuel en utilisant la poimpe de la réplique. Version fonctionnant à l'aide de petit chargeurs de 22 billes en capacité.",
+      "prix":"169,90 € TTC"
+    },
+    {
+      "nom":"fn-herstal-spr-a5m",
+      "image":"img/repliques/sniper/fn-herstal-spr-a5m.jpg",
+      "type":"sniper",
+      "reference":"10",
+      "detail":"FN Herstal fusil sniper SPR A5M. Fusil à verrou manuel. Compatible VSR-10. Chargeur 30 billes. Puissance d'environ 400 fps, soit 1.7 joules. Réplique Métal / Nylon. Appuie joue réglable.",
+      "prix":"129,90 € TTC"
+    },
+    {
+      "nom":"KJ-Works-Fusil-M700-Police",
+      "image":"img/repliques/sniper/KJ-Works-Fusil-M700-Police.jpg",
+      "type":"sniper",
+      "reference":"11",
+      "detail":"KJ Works fusil sniper à gaz M700 Police, version non démontable. Couleur Noir, culasse réglable en puissance. Chargeur en métal d'une capacité de 10 billes. Rail pour lunette montée d'origine.",
+      "prix":"199,90 € TTC"
+    },
+    {
+      "nom":"swiss-arms-black-eagle-m6",
+      "image":"img/repliques/sniper/swiss-arms-black-eagle-m6.jpg",
+      "type":"sniper",
+      "reference":"12",
+      "detail":"",
+      "prix":"69,90 € TTC"
+    },
+    {
+      "nom":"asg-stti-m92-gaz",
+      "image":"img/repliques/pistolet/asg-stti-m92-gaz.jpg",
+      "type":"pistolet",
+      "reference":"13",
+      "detail":"STTI pistolet à gaz M92 de couleur noire. Pistolet avec culasse fixe à tout petit prix !",
+      "prix":"39,90 € TTC"
+    },
+    {
+      "nom":"cyma-g18c-aep-cm030-noir",
+      "image":"img/repliques/pistolet/cyma-g18c-aep-cm030-noir.jpg",
+      "type":"pistolet",
+      "reference":"14",
+      "detail":"Cyma Pistolet électrique AEP - Sélecteur coup par coup / full auto - Réglage Hop Up ",
+      "prix":"69,90 € TTC"
+    },
+    {
+      "nom":"cyma-m92-aep-cm126",
+      "image":"img/repliques/pistolet/cyma-m92-aep-cm126.jpg",
+      "type":"pistolet",
+      "reference":"15",
+      "detail":"Cyma CM126 pistolet électrique. Hop Up réglable. La réplique est en ABS et l'interne est en métal. Idéal pour les jeux en intérieur, la puissance en sortie de boite étant d'environ 0,5 joules. Ne vous laissez pas induire en erreur par la faible la puissance la portée est aussi au rendez-vous.",
+      "prix":"69,90 € TTC"
+    },
+    {
+      "nom":"galaxy-g25-type-strike-warrior-full-metal-ressort",
+      "image":"img/repliques/pistolet/galaxy-g25-type-strike-warrior-full-metal-ressort.jpg",
+      "type":"pistolet",
+      "reference":"16",
+      "detail":"Le G.25 est un grand modèle métal imposant bénéficiant d' une bonne prise en main. Son poids conséquent ainsi que son canon en métal chromé accentuent son réalisme .Un rail sous le canon vous permettra de fixer une lampe ou un laser par exemple.C'est un très beau modèle d'une grande qualité dans sa finition.",
+      "prix":"16,90 € TTC"
+    },
+    {
+      "nom":"galaxy-g26-type-sig-sauer-p226-full-metal-ressort",
+      "image":"img/repliques/pistolet/galaxy-g26-type-sig-sauer-p226-full-metal-ressort.jpg",
+      "type":"pistolet",
+      "reference":"17",
+      "detail":"Le G.26 est un pistolet similaire au P226. Cette réplique airsoft à billes manuelle full métal de marque Galaxy. Un modèle de couleur noire disposant d'un rail de montage sous le canon afin de fixer une lampe ou un laser par exemple. Il développe une puissance de 0.5 joule, et son chargeur permet l'emport de 12 billes. Nous conseillons l'utilisation de billes de 0.20gr pour ce modèle.",
+      "prix":"16,90 € TTC"
+    },
+    {
+      "nom":"hfc-revolver-colt-savaging-bull-6-chrome",
+      "image":"img/repliques/pistolet/hfc-revolver-colt-savaging-bull-6-chrome.jpg",
+      "type":"pistolet",
+      "reference":"18",
+      "detail":"HFC Savaging Bull 6 Revolver 6 coups à gaz couleur argent. Fournie avec 6 douilles 6mm. Puissance 270 fps.",
+      "prix":"69,90 € TTC"
+    },
+    {
+      "nom":"hfc-revolver-type-sw-m10-gaz-chrome",
+      "image":"img/repliques/pistolet/hfc-revolver-type-sw-m10-gaz-chrome.jpg",
+      "type":"pistolet",
+      "reference":"19",
+      "detail":"HFC Revolver type S&W M10 de couleur Argent et imitation Bois. Revolver à cartouche et barillet mobile. Réplique à Gaz en ABS avec canon Métal et crosse en Nylon.",
+      "prix":"59,90 € TTC"
+    },
+    {
+      "nom":"hfc-revolver-type-sw-m10-gaz-noirbois",
+      "image":"img/repliques/pistolet/hfc-revolver-type-sw-m10-gaz-noirbois.jpg",
+      "type":"pistolet",
+      "reference":"20",
+      "detail":"HFC Revolver type S&W M10 de couleur noir et imitation Bois. Revolver à cartouche et barillet mobile. Réplique à Gaz canon Métal et crosse en Nylon.",
+      "prix":"59,90 € TTC"
+    }
+  ],
+  "accessoires": [
+    {
+      "nom":"bipied-a-ressort-style-harris",
+      "image":"img/accessoires/bipied/bipied-a-ressort-style-harris.jpg",
+      "type":"bipied",
+      "reference":"21",
+      "detail":"Bipied à ressort style Harris full métal ajustable ",
+      "prix":"39,90 € TTC"
+    },
+    {
+      "nom":"cyma-bipied-type-harris-m030",
+      "image":"img/accessoires/bipied/cyma-bipied-type-harris-m030.jpg",
+      "type":"bipied",
+      "reference":"22",
+      "detail":"Cyma M030 bipied en métal type Harris à Ressort - Adaptateur de fixation sur rail Picatinny 22mm - Fixation sur type VSR10 / M14 sans l'adaptateur ",
+      "prix":"39,90 € TTC"
+    },
+    {
+      "nom":"swiss-arms-bipied-aluminium",
+      "image":"img/accessoires/bipied/swiss-arms-bipied-aluminium.jpg",
+      "type":"bipied",
+      "reference":"23",
+      "detail":"Swiss Arms Bipied Pliable Alminium ajustable. Fixation Piccatinny et sur grenadière.",
+      "prix":"29,90 € TTC"
+    },
+    {
+      "nom":"cyma-crosse-g36-nylon-m008",
+      "image":"img/accessoires/crosse/cyma-crosse-g36-nylon-m008.jpg",
+      "type":"crosse",
+      "reference":"24",
+      "detail":"Cyma Crosse G36 Nylon M008",
+      "prix":"29,90 € TTC"
+    },
+    {
+      "nom":"Cyma-Crosse-Pleine-AK74-C-80",
+      "image":"img/accessoires/crosse/Cyma-Crosse-Pleine-AK74-C-80.jpg",
+      "type":"crosse",
+      "reference":"25",
+      "detail":"Cyma Crosse Pleine C80 Type AK (CM031) Compatible avec tous les modéles AK.",
+      "prix":"22,90 € TTC"
+    },
+    {
+      "nom":"rti-lunette-4x32-avec-anneaux-de-montage",
+      "image":"img/accessoires/lunetteVisée/rti-lunette-4x32-avec-anneaux-de-montage.jpg",
+      "type":"lunetteVisée",
+      "reference":"26",
+      "detail":"Lunette tactique RTI 4X32 réticule mildot.",
+      "prix":"32,90 € TTC"
+    },
+    {
+      "nom":"swiss-arms-lunette-3-7x20-avec-anneaux-de-montage",
+      "image":"img/accessoires/lunetteVisée/swiss-arms-lunette-3-7x20-avec-anneaux-de-montage.jpg",
+      "type":"lunetteVisée",
+      "reference":"27",
+      "detail":"Cybergun Lunette de visée. Zoom réglable 3 - 7x. Diamètre de la lunette de 20mm. Fournie avec les anneaux de montages.",
+      "prix":"19,90 € TTC"
+    }
+  ],
+  "consommables": [
+    {
+      "nom":"gg-020g-sachet-5000-billes",
+      "image":"img/consommables/bille6mm/gg-020g-sachet-5000-billes.jpg",
+      "type":"bille6mm",
+      "reference":"28",
+      "detail":"G&G - Sachet de 5000 Billes 6mm en 0,20g - 1kg.",
+      "prix":"11,90 € TTC"
+    },
+    {
+      "nom":"gg-025g-sachet-4000-billes",
+      "image":"img/consommables/bille6mm/gg-025g-sachet-4000-billes.jpg",
+      "type":"bille6mm",
+      "reference":"29",
+      "detail":"G&G - Sachet de 4000 Billes 6mm en 0,25g - 1kg.",
+      "prix":"12,90 € TTC"
+    },
+    {
+      "nom":"guarder-040g-sachet-1000-billes-sniper",
+      "image":"img/consommables/bille6mm/guarder-040g-sachet-1000-billes-sniper.jpg",
+      "type":"bille6mm",
+      "reference":"30",
+      "detail":"Guarder billes 0,40gr de couleur marron. Billes haute précision conditionnées en sachet de 1000 billes.",
+      "prix":"12,90 € TTC"
+    },
+    {
+      "nom":"bioval-020g-bio-sachet-5000-billes",
+      "image":"img/consommables/bille6mmbio/bioval-020g-bio-sachet-5000-billes.jpg",
+      "type":"bille6mmbio",
+      "reference":"31",
+      "detail":"Bioval sachet de 5000 billes blanches 0.20gr. Billes haut de gamme bio-dégradables.",
+      "prix":"12,90 € TTC"
+    },
+    {
+      "nom":"bioval-030g-bio-sachet-3300-billes",
+      "image":"img/consommables/bille6mmbio/bioval-030g-bio-sachet-3300-billes.jpg",
+      "type":"bille6mmbio",
+      "reference":"32",
+      "detail":"Bioval sachet de ~3300 billes blanches 0.30gr. Billes haut de gamme bio-dégradables.",
+      "prix":"16,90 € TTC"
+    },
+    {
+      "nom":"Cybergun-Gaz-APS3-520ml",
+      "image":"img/consommables/bouteilleGaz/Cybergun-Gaz-APS3-520ml.jpg",
+      "type":"bouteilleGaz",
+      "reference":"33",
+      "detail":"Cybergun Gaz Extreme BlowBack. Bouteille de 520ml. Contient de l'APS 3.",
+      "prix":"7,90 € TTC"
+    },
+    {
+      "nom":"nuprol-30-green-gaz-1000ml",
+      "image":"img/consommables/bouteilleGaz/nuprol-30-green-gaz-1000ml.jpg",
+      "type":"bouteilleGaz",
+      "reference":"34",
+      "detail":"Le Nuprol 3.0 de WE Airsoft Europe est un gaz issu d'une toute nouvelle génération de gaz spécialement étudié pour une utilisation convenable des répliques même par temps froid.",
+      "prix":"16,90 € TTC"
+    },
+    {
+      "nom":"umarex-cartouche-co2-088g",
+      "image":"img/consommables/cartoucheCo2/umarex-cartouche-co2-088g.jpg",
+      "type":"cartoucheCo2",
+      "reference":"35",
+      "detail":"Cartouche de Co2 88gr - Adapté pour armes de tir sportif et non airsoft",
+      "prix":"9,90 € TTC"
+    }
+  ],
+  "protections": [
+    {
+      "nom":"emerson-casque-fast-mh-deluxe-foliage",
+      "image":"img/protections/casque/emerson-casque-fast-mh-deluxe-foliage.jpg",
+      "type":"casque",
+      "reference":"36",
+      "detail":"Emerson casque FAST MH Deluxe de couleur Foliage Green. Fabrication en Nylon. Taille unique réglable. Point d'attache pour lunette ou monoculaire. Installation du masque de protection. Rails tactique installés pour adapter vos accessoires.",
+      "prix":"39,90 € TTC"
+    },
+    {
+      "nom":"emerson-casque-fast-mh-deluxe-mandrake",
+      "image":"img/protections/casque/emerson-casque-fast-mh-deluxe-mandrake.jpg",
+      "type":"casque",
+      "reference":"37",
+      "detail":"Emerson casque FAST MH Deluxe de couleur Mandrake. Fabrication en Nylon. Taille unique réglable. Point d'attache pour lunette ou monoculaire. Installation du masque de protection. Rails tactique installés pour adapter vos accessoires.",
+      "prix":"49,90 € TTC"
+    },
+    {
+      "nom":"emerson-gants-gen2-a-tacs",
+      "image":"img/protections/gants/emerson-gants-gen2-a-tacs.jpg",
+      "type":"gants",
+      "reference":"38",
+      "detail":"Emerson gants tactiques en cuir et coton ripstop. Renforts au niveau de la paume de la main. Gants aérés pour un meilleur confort. Existe en plusieurs tailles",
+      "prix":"15,90 € TTC"
+    },
+    {
+      "nom":"emerson-gants-gen2-mandrake",
+      "image":"img/protections/gants/emerson-gants-gen2-mandrake.jpg",
+      "type":"gants",
+      "reference":"39",
+      "detail":"Emerson gants tactiques en cuir et coton ripstop. Renforts au niveau de la paume de la main. Gants aérés pour un meilleur confort.Existe en plusieurs tailles",
+      "prix":"15,90 € TTC"
+    },
+    {
+      "nom":"bolle-b-line-bl10-incolone",
+      "image":"img/protections/lunettes/bolle-b-line-bl10-incolone.jpg",
+      "type":"lunettes",
+      "reference":"40",
+      "detail":"Bollé lunette de protection de la gamme B-Line modèle BL10CI. B-LINE est une gamme de protection oculaire accessible à tous et est adaptée aux risques industriels les plus courants. B-LINE bénéficie de l'expertise et de la qualité Bollé Safety.",
+      "prix":"6,90 € TTC"
+    },
+    {
+      "nom":"bolle-lunettes-tracker-fume-platinum",
+      "image":"img/protections/lunettes/bolle-lunettes-tracker-fume-platinum.jpg",
+      "type":"lunettes",
+      "reference":"41",
+      "detail":"Ultra-confortable et technique, Tracker protège de l'ensemble des risques mécaniques mais également des risques chimiques, ce qui en fait un modèle exclusif dans la gamme des lunettes à branches",
+      "prix":"19,90 € TTC"
+    },
+    {
+      "nom":"demi-masque-zombie-chair-claire",
+      "image":"img/protections/masque/demi-masque-zombie-chair-claire.jpg",
+      "type":"masque",
+      "reference":"42",
+      "detail":"Demi Masque Zombi Couleur Gris, Idéal pour un scénario Mort Vivant ! ",
+      "prix":"18,90 € TTC"
+    },
+    {
+      "nom":"Swiss-Arms-Grille-Protect-DE",
+      "image":"img/protections/masque/Swiss-Arms-Grille-Protect-DE.jpg",
+      "type":"masque",
+      "reference":"43",
+      "detail":"Swiss arms masque grillage bas de visage couleur Désert. Double anse réglable.",
+      "prix":"19,90 € TTC"
+    },
+    {
+      "nom":"helix-masque-thermal-olive",
+      "image":"img/protections/masqueIntegral/helix-masque-thermal-olive.jpg",
+      "type":"masqueIntegral",
+      "reference":"44",
+      "detail":"Helix masque OD verre thermal anti-buée. Design retravaillé permettant l'utilisation avec un casque.",
+      "prix":"44,90 € TTC"
+    },
+    {
+      "nom":"v-force-masque-olive",
+      "image":"img/protections/masqueIntegral/v-force-masque-olive.jpg",
+      "type":"masqueIntegral",
+      "reference":"45",
+      "detail":"V-Force masque Olive avec écran 'Fieldvision' traitement antibuée. Verre incolorre. ",
+      "prix":"24,90 € TTC"
+    }
+  ]
+}
