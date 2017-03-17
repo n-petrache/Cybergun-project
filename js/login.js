@@ -144,6 +144,6 @@ $(function(){
   });
   $('#trashButton').click(function() {
     var reset = $('#trashButton').val();
-    $('#trashButton').val(remove(reset);
+    $('#trashButton').val(remove(reset));
   });
 });
